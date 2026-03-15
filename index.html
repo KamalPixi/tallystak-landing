@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TallyStak | Modern Shop Management & POS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f172a;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen">
+
+    <main class="flex-grow flex items-center justify-center px-4 py-20">
+        <div class="max-w-4xl w-full text-center">
+            <div class="mb-8 flex justify-center">
+                <div
+                    class="h-16 w-16 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
+                    <i class="fas fa-chart-line text-3xl"></i>
+                </div>
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 tracking-tight">
+                Tally<span class="gradient-text">Stak</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-400 mb-10 font-light">
+                The future of Shop Management. <br class="hidden md:block"> Powerful POS with Cloud Sync, right in your
+                pocket.
+            </p>
+
+            <div
+                class="inline-block px-6 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium mb-12 animate-pulse">
+                🚀 Coming Soon to iOS & Android
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-16">
+                <div class="glass p-6 rounded-2xl">
+                    <i class="fas fa-mobile-alt text-blue-400 text-2xl mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Mobile POS</h3>
+                    <p class="text-slate-400 text-sm">Sell anywhere. Turn your smartphone into a full-featured checkout
+                        counter.</p>
+                </div>
+                <div class="glass p-6 rounded-2xl">
+                    <i class="fas fa-cloud-upload-alt text-blue-400 text-2xl mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Cloud Backup</h3>
+                    <p class="text-slate-400 text-sm">Real-time sync ensures your business data is safe, secure, and
+                        always accessible.</p>
+                </div>
+                <div class="glass p-6 rounded-2xl">
+                    <i class="fas fa-bolt text-blue-400 text-2xl mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Modern Insights</h3>
+                    <p class="text-slate-400 text-sm">Inventory tracking, sales reports, and digital receipts in one
+                        sleek app.</p>
+                </div>
+            </div>
+
+            <div class="max-w-md mx-auto">
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <input type="email" placeholder="Enter your email"
+                        class="w-full px-5 py-3 rounded-xl bg-slate-800 border border-slate-700 focus:outline-none focus:border-blue-500 transition">
+                    <button
+                        class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-xl transition shadow-lg shadow-blue-600/20 whitespace-nowrap">
+                        Get Early Access
+                    </button>
+                </div>
+                <p class="mt-4 text-xs text-slate-500">Join 500+ shop owners waiting for launch.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-10 text-center border-t border-slate-800">
+        <p class="text-slate-500 text-sm">
+            &copy; 2026 TallyStak.com. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
